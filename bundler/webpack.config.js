@@ -10,8 +10,8 @@ module.exports = {
 	devServer: {
 		contentBase: "./dist",
 		open: true,
-		port: 3000,
-		host: "10.93.180.254"
+		host: "0.0.0.0",
+		useLocalIp: true
 	},
 	entry: path.resolve(__dirname, "../src/index.js"),
 	output: {
